@@ -1,0 +1,294 @@
+body{
+    background-color: #33ecd9;
+}
+.header{
+    background-color:#ecac2c;
+    position: absolute;
+    padding: 50px 150px;
+    left: 0px;
+    top: 0px;
+}
+#choice{
+    display: block;
+    position: absolute;
+    left: 33%;
+    top: 35%;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    position: absolute;
+    font-size: 25px;
+    left: 10px;
+    top: 20px;
+    color: #cecece;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.container{
+    background-color: #288a80;
+    position: absolute;
+    padding: 500px 150px;
+    left: 0px;
+    top: 0px;
+}
+.buttons{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+#samsung{
+    padding: 20px 86.5px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    font-size: 30px;
+    background-color: #288a80;
+    border: none;
+}
+#samsung:hover{
+    background-color:#8ec0bb;
+}
+hr{
+    position: absolute;
+    z-index: 2;
+    padding: 2px 150px;
+    top: 89px;
+    left: 0px;
+    background-color: #000;
+    border: none;
+}
+#hr2{
+    position: absolute;
+    z-index: 2;
+    padding: 2px 150px;
+    top: 167px;
+    left: 0px;
+    background-color: #000;
+    border: none;
+}
+#iphone{
+    padding: 20px 103px;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    font-size: 30px;
+    background-color: #288a80;
+    border: none;
+}
+#iphone:hover{
+    background-color:#8ec0bb;
+}
+#xiaomi{
+    padding: 20px 103px;
+    position: absolute;
+    top: 260px;
+    left: 0px;
+    font-size: 30px;
+    background-color: #288a80;
+    border: none;
+}
+#xiaomi:hover{
+    background-color:#8ec0bb;
+}
+#hr3{
+    position: absolute;
+    z-index: 2;
+    padding: 2px 150px;
+    top: 246px;
+    left: 0px;
+    background-color: #000;
+    border: none;
+}
+#infinix{
+    padding: 20px 110px;
+    position: absolute;
+    top: 340px;
+    left: 0px;
+    font-size: 30px;
+    background-color: #288a80;
+    border: none;
+}
+#infinix:hover{
+    background-color:#8ec0bb;
+}
+#hr4{
+    position: absolute;
+    z-index: 2;
+    padding: 2px 150px;
+    top: 325px;
+    left: 0px;
+    background-color: #000;
+    border: none;
+}
+#huawei{
+    padding: 20px 100px;
+    position: absolute;
+    top: 420px;
+    left: 0px;
+    font-size: 30px;
+    background-color: #288a80;
+    border: none;
+}
+#huawei:hover{
+    background-color:#8ec0bb;
+}
+#hr5{
+    position: absolute;
+    z-index: 2;
+    padding: 2px 150px;
+    top: 405px;
+    left: 0px;
+    background-color: #000;
+    border: none;
+}
+#oppo{
+    padding: 20px 113px;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    font-size: 30px;
+    background-color: #288a80;
+    border: none;
+}
+#oppo:hover{
+    background-color:#8ec0bb;
+}
+#hr6{
+    position: absolute;
+    z-index: 2;
+    padding: 2px 150px;
+    top: 486px;
+    left: 0px;
+    background-color: #000;
+    border: none;
+}
+#hr7{
+    position: absolute;
+    z-index: 2;
+    padding: 2px 150px;
+    top: 568px;
+    left: 0px;
+    background-color: #000;
+    border: none;
+}
+#iphonecontainer, #samsungcontainer, #xiaomicontainer, #infinixcontainer, #huaweicontainer, #oppocontainer{
+    position: absolute;
+    background-color: transparent;
+    padding: 380px 400px;
+    right: 10%;
+    display: none;
+    transition: 1s;
+}
+#i1, #s1, #x1, #n1, #h1, #o1{
+    position: absolute;
+   top: 5%;
+   left: 1%;
+    width: 170px;
+    height: 350px;
+}
+#i1:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#s1:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#x1:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#n1:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#h1:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#o1:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#i2, #s2, #x2, #n2, #h2, #o2{
+    position: absolute;
+   top: 5%;
+   left: 30%;
+    width: 170px;
+    height: 350px;
+}
+#i2:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#s2:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#ix:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#n2:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#h2:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#o2:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#i3, #s3, #x3, #n3, #h3, #o3{
+    position: absolute;
+   top: 5%;
+   left: 60%;
+    width: 170px;
+    height: 350px;
+}
+#i3:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#s3:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#x3:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#n3:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#h3:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}
+#o3:hover{
+    top: 2%;
+    width: 180px;
+    height: 360px;
+}

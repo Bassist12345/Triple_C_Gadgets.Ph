@@ -1,0 +1,222 @@
+body{
+    background-color: #33ecd9;
+    overflow: hidden;
+}
+.round0{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background-color: #852cec;
+    z-index: 2;
+    border-radius: 180%;
+    right: -20%;
+    top: -20%;
+    z-index: -1;
+}
+.header{
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    background-color: transparent;
+    padding: 60px 500px;
+}
+h1{
+    position: absolute;
+    left: -03%;
+    top: 19%;
+    font-size: 25px;
+    color: #feffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#logo{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -16%;
+    top: 2%;
+    border-radius: 50%;
+    font-size: 20px;
+}
+#search{
+    position: absolute;
+    font-size: 20px;
+    top: 25px;
+    left: 25%;
+    padding: 16px 200px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+#btn1{
+    position: absolute;
+    padding: 20px 30px;
+    background-color: #2ac7b7;
+    color: #fff;
+    top: 24.5px;
+    right: 0%;
+    border: none;
+}
+#btn1:hover{
+    background-color: #e9e6ae;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    height: 583.5px;
+    background-color: #288a80;
+    top: 25%;
+    left: 0%;
+    overflow: hidden;
+}
+.round1{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: #ecac2c;
+    z-index: 2;
+    border-radius: 180%;
+    right: -10%;
+    top: -10%;
+}
+.round2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #33ecd9;
+    z-index: 1;
+    border-radius: 180%;
+    right: 10%;
+    top: 60%;
+}
+h2{
+    position: absolute;
+    top: 10px;
+    left: 26%;
+    color: #eff4f4;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    z-index: 5;
+}
+
+#btn2{
+    position: absolute;
+    padding: 19.5px 30px;
+    background-color: #ecac2c;
+    color: #fff;
+    top: 270px;
+    left: 46%;
+    border: none;
+}
+#btn2:hover{
+    background-color: #ead4a6;
+}
+.link{
+   width: 50%;
+   height: 50px;
+    background-color: transparent;
+    justify-content: space-between;
+    position: absolute;
+    top: 20%;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 0%;
+    font-size: 15px;
+    top: 5px;
+    color: #10100f;
+    z-index: 5;
+}
+
+h4{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 10%;
+    font-size: 15px;
+    top: 0px;
+    color: #10100f;
+}
+h5{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 30%;
+    font-size: 15px;
+    top: -4px;
+    color: #10100f;
+}
+h6{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 50%;
+    font-size: 15px;
+    top: -14px;
+    color: #10100f;
+}
+h3:hover{
+    color: #ead4a6;
+}
+h4:hover{
+    color: #ead4a6;
+}
+h5:hover{
+    color: #ead4a6;
+}
+
+h6:hover{
+    color: #ead4a6;
+}
+P{
+    position: absolute;
+    top: 180px;
+    left: 32%;
+    color: #eff4f4;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    z-index: 5;
+}
+.follow{
+    position: absolute;
+    bottom: 33px;
+    background-color: #e9e6ae;
+    padding: 80px 80px;
+    left: -80px;
+    transform: rotate(45deg);
+}
+.follow:hover{
+    background-color: #ead4a6;
+    color: #eff4f4;
+}
+span{
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#fb{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    bottom: 80px;
+    left: 160px;
+    display: none;
+}
+#in{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    bottom: 80px;
+    left: 250px;
+    display: none;
+}
+#tw{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    bottom: 80px;
+    left: 340px;
+    display: none;
+}
