@@ -416,4 +416,7 @@ hr{
     width: 120px;
     height: 200px;
 }
+    hr{
+        display: none;
+    }
 }
