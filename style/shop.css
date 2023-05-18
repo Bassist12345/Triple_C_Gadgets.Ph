@@ -292,7 +292,7 @@ hr{
     width: 180px;
     height: 360px;
 }
-@media all and (max-width: 394px){
+@media all and (max-width: 444px){
     .header{
         background-color:#ecac2c;
         position: absolute;
@@ -391,7 +391,7 @@ hr{
     background-color: transparent;
     padding: 100px 200px;
     top: 40%;
-    right: 10%;
+    right: 15%;
     display: none;
     transition: 1s;
 }
